@@ -1,10 +1,11 @@
 {
-  "name": "react-tailwindcss",
+  "name": "React Tailwindcss",
   "version": "1.0.0",
-  "description": "A React component library built with Tailwindcss",
+  "description": "A component library built with React and Tailwindcss",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
@@ -12,12 +13,38 @@
   },
   "keywords": [
     "react",
-    "tailwind"
+    "tailwind",
+    "component",
+    "components"
   ],
-  "author": "Michael McShinsky <mcshinsky@gmail.com>",
+  "author": {
+    "name": "Michael McShinsky",
+    "email": "michael@mcshinsky.net"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mmcshinsky/react-tailwindcss/issues"
   },
-  "homepage": "https://github.com/mmcshinsky/react-tailwindcss#readme"
+  "homepage": "https://github.com/mmcshinsky/react-tailwindcss#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.2",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.3",
+    "prettier": "^1.19.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
 }
