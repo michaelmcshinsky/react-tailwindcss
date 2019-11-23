@@ -1,7 +1,7 @@
 {
   "name": "React Tailwindcss",
   "version": "1.0.0",
-  "description": "A component library built with React and Tailwindcss",
+  "description": "A component an ui library built with React and Tailwindcss",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,8 @@
     "react",
     "tailwind",
     "component",
-    "components"
+    "components",
+    "ui"
   ],
   "author": {
     "name": "Michael McShinsky",
